@@ -35,8 +35,8 @@ restore.onclick = function() {
     score = 0
   }else{
     score = Number(cat);
-    console.log(score);
   }
+  scoreSpan.innerHTML = score;
 }
 
 function start(){
