@@ -6,17 +6,27 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href=".ico/ico.ico" type="image/x-icon">
   <title>Math Example</title>
 </head>
 
 <body>
-  <div class="container">
-    <span class="example"></span>
-    <input type="text" class="answer">
-    <button class="check">check</button>
-
+  <div class="game">
+    <div class="level-div">
+      <button class="level">1</button>
+      <button class="level">2</button>
+      <button class="level">3</button>
+    </div>
+    <div class="container">
+      <span class="example"></span>
+      <input type="text" class="answer">
+      <button class="check">check</button>
+      <button class="restore">restore</button>
+    </div>
+    <div class="score-div">
+      <p class="score-p">Score <span class="score"></span></p>
+    </div>
   </div>
-  <p class="score-p">Score <span class="score"></span></p>
   <script src="./js/main.js"></script>
 </body>
 
