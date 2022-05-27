@@ -34,9 +34,9 @@ restore.onclick = function() {
   if (cat == undefined){
     score = 0
   }else{
-    score = cat;
+    score = Number(cat);
+    console.log(score);
   }
-  start()
 }
 
 function start(){
